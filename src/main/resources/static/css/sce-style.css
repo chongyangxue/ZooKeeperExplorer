@@ -1,0 +1,1171 @@
+/* 
+	SCE ICON 图标配置
+*/
+.sce_icon_global {
+	background-image: url(/images/sce-icons.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	margin-top: 1px;
+	vertical-align: text-top;
+}
+
+.sce_icon_white {
+	background-image: url(/images/sce-icons-white.png);
+}
+/*全屏*/
+.sce_icon_fullscreen {
+	background-position: -34px -65px;
+}
+/*退出全屏*/
+.sce_icon_closescreen {
+	background-position: -58px -66px;
+}
+/*展开*/
+.sce_icon_unfold {
+	background-position: -82px -66px;
+}
+/*叠放*/
+.sce_icon_fold {
+	background-position: -107px -66px;
+}
+/*light bulb*/
+.sce_icon_lightbulb {
+	background-position: -4px -47px;
+}
+/*类型转换*/
+.sce_icon_toggle {
+	background-position: -415px -39px;
+}
+/*删除*/
+.sce_icon_delete {
+	background-position: -362px -40px;
+}
+/*卸载*/
+.sce_icon_uninstall {
+	background-position: -337px -36px;
+}
+/*停止*/
+.sce_icon_stop {
+	background-position: -298px -37px;
+}
+/*启动*/
+.sce_icon_start {
+	background-position: -286px -36px;
+}
+/*graph chart*/
+.sce_icon_graphchart {
+	background-position: -256px -36px;
+}
+/*预发布*/
+.sce_icon_prerelease {
+	background-position: -225px -39px;
+}
+/*site map*/
+.sce_icon_sitemap {
+	background-position: -209px -39px;
+}
+/*更新*/
+.sce_icon_update {
+	background-position: -140px -38px;
+}
+/*设置*/
+.sce_icon_set {
+	background-position: -131px -37px;
+}
+/*配置*/
+.sce_icon_config {
+	background-position: -107px -37px;
+}
+/*回滚程序*/
+.sce_icon_rollback {
+	background-position: -393px -37px;
+}
+/*编辑 修改*/
+.sce_icon_edit {
+	background-position: -82px -37px;
+}
+/*上传*/
+.sce_icon_upload {
+	background-position: -29px -37px;
+}
+/*下载*/
+.sce_icon_download {
+	background-position: -55px -37px;
+}
+/*日历*/
+.sce_icon_canlendar {
+	background-position: -3px -14px;
+}
+/*更新程序包*/
+.sce_icon_updateprogram {
+	background-position: -261px -3px;
+}
+/*安全设置*/
+.sce_icon_safeset {
+	background-position: -283px -3px;
+}
+/*更新资源*/
+.sce_icon_updateresource {
+	background-position: -206px -2px;
+}
+/*日志*/
+.sce_icon_log {
+	background-position: -184px -2px;
+}
+/*历史部署*/
+.sce_icon_historydeploy {
+	background-position: -154px -4px;
+}
+/*监控*/
+.sce_icon_moniter {
+	background-position: -125px -4px;
+}
+/*安全*/
+.sce_icon_safe {
+	background-position: -92px -3px;
+}
+/*密码*/
+.sce_icon_password {
+	background-position: -68px -3px;
+}
+/*列表*/
+.sce_icon_list {
+	background-position: -25px -4px;
+}
+/*仪表盘*/
+.sce_icon_dashbord {
+	background-position: 0 0;
+}
+/*关联域名*/
+.sce_icon_correlate {
+	background-position: -46px -4px;
+}
+/*从代码库更新程序*/
+.sce_icon_updatefrmsrc {
+	background-position: -307px -3px;
+}
+/*重新启动*/
+.sce_icon_restart {
+	background-position: -331px -3px;
+}
+/*版本控制*/
+.sce_icon_versioncontrol {
+	background-position: -356px -4px;
+}
+/*下载程序包*/
+.sce_icon_download_prj {
+	background-position: -384px -36px;
+}
+
+/*主页tab左右隐藏与显示箭头样式*/
+.sce_nav_ul {
+	overflow: hidden;
+	white-space: nowrap;
+	margin-bottom: 20px;
+	border-bottom: 2px solid rgb(199, 199, 199);
+}
+
+.sce_nav_ul:after {
+	clear: initial;
+}
+
+.sce_nav_ul>li {
+	float: none;
+	display: inline-block;
+	margin-right: -7px;
+	margin-bottom: 0px;
+}
+
+.sce_nav_ul a span {
+	color: rgb(141, 142, 143);
+}
+
+.sce_nav_ul li.active a span {
+	color: #0088cc;
+}
+
+/*
+.sce_nav_ul .active a {
+	background-color: #65B6DD;
+	color: white;
+}
+*/
+.dropdown-menu  a {
+	background-color: white !important;
+	color: black !important;
+}
+
+.sce_scroll_left,.sce_scroll_right {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	font-family: SimHei;
+	text-align: center;
+	line-height: 40px;
+	overflow: hidden;
+	font-size: 20px;
+	cursor: pointer;
+	height: 40px;
+	width: 20px;
+	color: #fff;
+	behavior: url("PIE.htc");
+}
+
+.sce_tab_control {
+	padding-left: 5px;
+	top: 10px;
+}
+
+.sce_scroll_left {
+	border-radius: 10px 3px 3px 10px;
+	margin-right: 15px;
+	float: left;
+}
+
+.sce_scroll_right {
+	-webkit-border-radius: 3px 10px 10px 3px;
+	-moz-border-radius: 3px 10px 10px 3px;
+	border-radius: 3px 10px 10px 3px;
+	margin-left: 15px;
+	float: right;
+}
+
+.sce_disabled {
+	cursor: not-allowed;
+	background: #CCC;
+	color: #999;
+}
+
+/*login page*/
+.sce_form-foot {
+	max-width: 400px;
+	padding: 19px 29px 10px;
+	margin: 10px auto 10px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.sce_form-signin {
+	max-width: 400px;
+	padding: 29px 29px 69px;
+	margin: 10px auto 20px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.sce_form-signin .form-signin-heading,.sce_form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.sce_form-signin input[type="text"],.sce_form-signin .add-on,.sce_form-signin input[type="password"]
+	{
+	font-size: 16px;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 7px 9px;
+}
+
+.sce_form-signin input[id="username"],.sce_form-signin input[name="password"]
+	{
+	width: 270px;
+}
+/*申请APP*/
+.sce_wizard {
+	position: relative;
+	overflow: auto;
+	min-width: 870px;
+}
+
+.sce_wizard .well {
+	margin: 3px 0
+}
+
+.sce_wizard-steps {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: inline-block;
+	background: #fff;
+}
+
+.sce_wizard-steps li {
+	display: inline-block;
+	position: relative;
+	margin-right: 5px;
+	line-height: 18px;
+	list-style: none;
+	padding: 12px 17px 10px 30px;
+	background: #efefef;
+	zoom: 1;
+	*display: inline;
+	*padding-left: 17px;
+}
+
+.sce_wizard-steps li:first-child {
+	-moz-border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+}
+
+.sce_wizard-steps li:first-child:before {
+	border: none;
+}
+
+.sce_wizard-steps li:last-child {
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+	margin-right: 0;
+}
+
+.sce_wizard-steps li:last-child:after {
+	border: none;
+}
+
+.sce_wizard-steps li:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 0;
+	width: 0;
+	border-bottom: 20px inset transparent;
+	border-left: 20px solid #fff;
+	border-top: 20px inset transparent;
+	content: "";
+}
+
+.sce_wizard-steps li:after {
+	position: absolute;
+	right: -20px;
+	top: 0;
+	height: 0;
+	width: 0;
+	border-bottom: 20px inset transparent;
+	border-left: 20px solid #efefef;
+	border-top: 20px inset transparent;
+	content: "";
+	z-index: 2;
+}
+
+.sce_wizard-steps .label {
+	margin: 0 5px 0 0;
+	padding: 1px 5px 2px;
+	position: relative;
+	top: -1px;
+}
+
+.sce_wizard-steps .active {
+	color: #fff;
+	background: #007ACC;
+}
+
+.sce_wizard-steps .active:after {
+	border-left-color: #007ACC;
+}
+
+.sce_wizard-steps a {
+	color: #333;
+}
+
+.sce_wizard-steps .active a {
+	color: #fff;
+	cursor: default;
+}
+
+.sce_wizard-steps a:hover {
+	text-decoration: none;
+}
+
+.sce_wizard-steps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clickable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(
+.active
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+)
+{
+cursor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pointer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+}
+.sce_wizard-steps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clickable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:hover
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(
+.active
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+)
+{
+background
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ccc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+}
+.sce_wizard-steps.clickable li:hover:not                         (.active           
+	             ) a {
+	color: #08c;
+}
+
+.sce_wizard-steps.clickable li:hover:not                         (.active           
+	             ):after {
+	border-left-color: #ccc;
+}
+
+@media ( max-width : 480px) { /*badges only on small screens*/
+	.sce_wizard-steps li,.sce_wizard-steps li.active,.sce_wizard-steps li:first-child,.sce_wizard-steps li:last-child
+		{
+		background-color: transparent;
+		padding: 0;
+		margin-right: 0;
+	}
+	.sce_wizard-steps li:after,.sce_wizard-steps li:before {
+		border: none;
+	}
+}
+
+.sce_wtitle {
+	text-align: center;
+}
+
+.sce_wizardPanel {
+	min-height: 300px;
+	line-height: 1.6;
+}
+
+.sce_wizardPanel dd {
+	margin-top: 10px;
+}
+
+.sce_hline {
+	border: 1px solid #cccccc;
+}
+
+.sce_wizardPanel input[type="checkbox"] {
+	margin: 0;
+}
+
+.sce_wizardPanel .row {
+	margin-top: 10px;
+}
+
+.sce_input-file {
+	*display: inline;
+	*zoom: 1;
+	display: inline-block;
+	width: 200px;
+	line-height: 30px;
+	background: #ddd;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	border-radius: 4px;
+	zoom: 1;
+}
+
+.sce_input-file input {
+	opacity: 0;
+	width: 200px;
+	filter: alpha(opacity =                                     0);
+	font-size: 100px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	zoom: 1;
+}
+
+.sce_app_lab {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#servtd label {
+	display: inline-block;
+	width: 120px;
+}
+
+#servtd label input[type='radio'] {
+	margin-top: 0px;
+}
+
+#servtd label span {
+	margin-left: 6px;
+}
+
+.tab-pane table input[type='text'] {
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+
+.sce_x_input {
+	margin: 0;
+	background: transparent;
+	border: none;
+	border-bottom: 1px dotted #5b5b78;
+	line-height: 19px;
+	font-family: inherit;
+	font-size: 14px;
+	outline: none;
+	padding: 0;
+	width: 240px;
+}
+
+.sce_version_btn_group {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.sce_version_lb_abtest {
+	cursor: default;
+	display: inline-block;
+	margin-left: 100px;
+	color: #3a87ad;
+	font-weight: normal;
+	line-height: 1;
+	color: #999999;
+}
+
+/*遮罩层*/
+#sce_mask_bg {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	z-index: 1001;
+	-moz-opacity: 0.7;
+	opacity: .50;
+	filter: alpha(opacity =                                       50);
+}
+
+#sce_mask_show {
+	display: none;
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	z-index: 2002;
+	color: black;
+	font-size: 14px;
+}
+
+.sce_margin_left {
+	margin-left: 50px;
+}
+
+.sce_margin_small_left {
+	margin-left: 20px;
+}
+
+.sce_margin_small_top {
+	margin-top: 20px;
+}
+
+/*z-tree外层的div*/
+.sce_tree_div {
+	margin-top: -10px;
+	border: 1px solid #617775;
+	background: #f0f6e4;
+	width: 220px;
+	height: 260px;
+	overflow-y: scroll;
+	overflow-x: auto;
+	position: absolute;
+	display: none;
+}
+
+/*table 隐藏操作*/
+.sce_op_hidden {
+	visibility: hidden;
+}
+
+.sce_op_visible {
+	visibility: visible;
+}
+
+.x_popover {
+	cursor: pointer;
+}
+
+/*翻页导航条*/
+.pagination a {
+	color: #333333;
+}
+
+/*监控样式*/
+/*可以显示到三行*/
+.sce_monitor_chart {
+	width: 360px;
+	height: 240px;
+}
+
+.sce_monitor_table {
+	width: 360px;
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+/*可以显示两行*/
+.sce_monitor_chart_detail {
+	width: 420px;
+	height: 240px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.sce_monitor_table_detail {
+	width: 420px;
+	margin-top: 10px;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#monitor_type_left label.active {
+	color: #08c;
+}

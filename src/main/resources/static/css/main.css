@@ -1,0 +1,351 @@
+/* 
+0. Responsive
+1. Miscellaneous
+2. Navbar   
+3. Sidebar
+4. Panel container
+5. Panel
+6. Table
+7. Form
+**/
+
+/* 0. Responsive */
+.row-fluid [class*="span"]:first-child{margin-left:2.12766%;}
+@media (max-width:767px){
+    .row-fluid [class*="span"]:first-child{margin-left:0%;}
+}
+@media (min-width:768px) and (max-width:979px){
+    .row-fluid [class*="span"]:first-child{margin-left:2.762430939%;}
+}
+@media (min-width:980px) and (max-width:1199px){
+    .row-fluid [class*="span"]:first-child{margin-left:2.12766%;}
+}
+@media (min-width:1200px){
+    .row-fluid [class*="span"]:first-child{margin-left:2.564102564%;}
+    .row-fluid .span10{width:84.905982906%;*width:84.8527914166383%;}
+}
+.row-fluid .span12:first-child{margin-left: 0px;}
+/* 1. Miscellaneous */
+body {
+    /*padding-top: 40px;*/
+ /*   background: #e0e0e0 url("../images/bg.png");*/
+    color: #15354c;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.alert-content{
+    display: inline-block;
+}
+
+.alert-icon{
+    float: left; 
+    margin-right: 10px;
+    padding-right: 5px;
+}
+.breadcrumb {
+    background: #eee;
+    border: none;
+    border-radius: 0px;
+    list-style-type: none;
+    margin: 0px 0px 0px 20px;
+    padding: 0 0 0 0px;
+    float: left;
+}
+.breadcrumb li{
+    float: left;
+    background: #eee;
+    padding: 10px 0px;
+}
+.breadcrumb li.breadcrumb-separator{
+    padding: 10px 6px;
+}
+a [class^="icon-"],.panel-header [class^="icon-"], .alert-icon [class^="icon-"]{
+    margin-right:6px;
+}
+.operations .btn [class^="icon-"]{
+    margin-right:0px;
+}
+.icon-green {
+    background-image:url("../images/glyphicons-halflings-green.png");
+}
+.icon-orange {
+    background-image:url("../images/glyphicons-halflings-orange.png"); 
+}
+.icon-red {
+    background-image:url("../images/glyphicons-halflings-red.png");
+}
+.icon-blue {
+    background-image:url("../images/glyphicons-halflings-blue.png");
+}
+.icon-monitor {
+    background-image:url("../images/glyphicons-halflings-monitor.png");
+}
+.active [class^="icon-"] {
+    background-image:url("../images/glyphicons-halflings-blue.png");
+}
+a:hover [class^="icon-"] {
+    background-image:url("../images/glyphicons-halflings-blue.png");
+}
+a.btn:hover [class^="icon-"] {
+    background-image:url("../images/glyphicons-halflings-white.png");
+}
+.row-fluid .all-left{
+    margin-left: 0px;
+}
+.clear{
+    clear: both;
+}
+.thumbnail {
+    text-align: center;
+}
+.fl{
+    float: left;
+}
+
+/* 2. Navbar */
+.navbar-inner {
+    background-color: #0E0E0E;
+    background-image: none;
+    border-bottom: 1px solid #c4c4c4;
+    box-shadow: none;
+}
+.navbar .brand {
+    color: #A1B3BD;
+    margin: 0px 6px;
+}
+.navbar .nav > li > a {
+    color: #ffffff;
+}
+.popup{
+    width: 300px;
+    padding: 10px;
+}
+span.popup-content{
+    padding: 10px 10px 10px 20px;
+    display: block;
+    color: #999;
+}
+li > a:hover span.popup-content{
+    color: #fff;
+}
+span.popup-content img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.navbar .nav li a:hover i,.navbar .nav li.active a i, a.btn:hover [class^="icon-"] {
+    background-image:url("../images/glyphicons-halflings-white.png");
+}
+
+/* 3. Sidebar */
+.sidebar-nav .nav-list li {
+    line-height: 32px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.sidebar-nav {
+    padding: 0;
+}
+.sidebar-nav .nav-list a {
+    color: #5c7181;
+    border-top: 1px solid #ffffff;
+    background-color: #efefef;
+}
+.nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > li > a:hover {
+    background: #fff url("../images/arrow.png") no-repeat right center;
+    color: #15354c;
+}
+.nav-list{
+    border-right: 1px solid #c4c4c4; 
+    padding: 0px;
+}
+.nav-list > .active > a, .nav-list > .active > a:hover {
+    text-shadow: none;
+}
+.nav-list > li > a, .nav-list .nav-header {
+    margin-left: 0;
+    margin-right: 0;
+}
+.nav-list > li > a {
+    background: #eee url("../images/arrow.png") no-repeat right center;
+}
+.sidebar-nav .nav li + .nav-header {
+    margin-top: 0;
+}
+
+
+/* 4. Panel container */
+.span10.content{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.row-fluid .span12.top-bar{
+    margin-left: 0px;
+    height: 40px;
+    background-color: #eee;
+    background-image: none;
+    border: 1px solid #c4c4c4;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.actions-bar{
+    float: right;
+    padding-right: 6px;
+    line-height: 20px;
+}
+.top-bar .actions-bar{
+    margin-top: 5px;
+}
+.panel-header .actions-bar  i{
+    margin-top: 2px;
+}
+
+
+/* 5. Panel */
+.panel{
+    background-color: #fff;
+    background-image: url("../images/panel-top-center.png");
+    background-position:center top;
+    background-repeat: repeat-x;
+    border: 1px solid #bbb;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+.panel-header{
+    line-height: 28px;
+    height: 28px;
+    margin-bottom: 20px;    
+}
+.panel-content{
+    padding: 0px 10px; 
+}
+.panel-header h2{
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: normal;
+    text-shadow: 0px 1px 0px #fff,0px 1px 0px #fff,0px 1px 0px #fff,0px 1px 0px #fff;
+    color: #15354c;
+    float: left; 
+}
+.panel-header i{
+    float: left;
+    margin-top: 6px;
+}
+.panel-header .actions-bar{
+    margin-top: 4px;
+}
+.panel.login{
+    width: 308px;
+    margin: auto;
+}
+
+
+/* 6. Table  */
+table td.operations{
+    width: 162px;
+}
+table .filters td{
+    border-top: none;
+}
+.filters input, .filters textarea, .filters select, .filters .uneditable-input {
+    width: 90%;
+}
+
+/*==================================================
+* table
+* ===============================================*/
+
+div.dataTables_length label {
+	float: left;
+	text-align: left;
+}
+
+div.dataTables_length select {
+	width: 75px;
+}
+
+div.dataTables_filter label {
+	float: right;
+}
+
+div.dataTables_processing {
+	
+}
+
+div.dataTables_info {
+	padding-top: 8px;
+}
+
+div.dataTables_paginate {
+	float: right;
+	margin: 0;
+}
+
+table.table {
+	clear: both;
+	margin-bottom: 6px !important;
+	white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+table.table thead .sorting,
+table.table thead .sorting_asc,
+table.table thead .sorting_desc,
+table.table thead .sorting_asc_disabled,
+table.table thead .sorting_desc_disabled {
+	cursor: pointer;
+	*cursor: hand;
+}
+
+table.table thead .sorting { background: url('../images/sort_both.png') no-repeat center right; }
+table.table thead .sorting_asc { background: url('../images/sort_asc.png') no-repeat center right; }
+table.table thead .sorting_desc { background: url('../images/sort_desc.png') no-repeat center right; }
+
+table.table thead .sorting_asc_disabled { background: url('../images/sort_asc_disabled.png') no-repeat center right; }
+table.table thead .sorting_desc_disabled { background: url('../images/sort_desc_disabled.png') no-repeat center right; }
+
+table.dataTable th:active {
+	outline: none;
+}
+
+/* 7. Form */
+.input-prepend .add-on, .input-prepend .btn {
+    margin-right: -5px;
+}
+.input-append .add-on, .input-append .btn {
+    margin-left: -5px;
+}
+.login input[type="text"], .login input[type="password"]{
+    width: 250px;
+    height: 30px;  
+}
+.login .input-prepend .add-on, .login .input-append .add-on {
+    padding: 10px 5px;
+}
+.form-horizontal .input-append, .form-horizontal .input-prepend {
+    margin-left: 20px;
+}
+.form-horizontal .input-append.input-prepend {
+    margin-left: 25px;
+}
+.form-horizontal .input-append.input-prepend .add-on:first-child{
+    margin-right: -6px;
+}
+.form-horizontal .input-append.input-prepend .add-on:last-child{
+    margin-left: -6px;
+}
+.input-xxlarge {
+    width: 100%;
+}
+footer{
+    padding: 0px 20px;
+    text-align: center;
+}
+
+

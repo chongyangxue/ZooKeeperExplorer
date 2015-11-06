@@ -1,0 +1,227 @@
+.content{width: 1000px; margin: 0 auto 30px; background: url(../img/account-bg.png) repeat-y left center;}
+.sidebar{width: 200px; float: left;}
+.main{margin-left: 200px;min-height:600px;_height:600px;}
+
+/*side-nav*/
+.side-nav{padding-top: 15px;}
+.side-nav li{height: 48px; line-height: 48px;margin-bottom:2px;}
+.side-nav li a{color: #8a969c; display: block; height: 48px; padding-left: 50px; font-size: 14px;transition:all .3s ease 0s;}
+.side-nav li.cur a,
+.side-nav li a:hover{background-color: #3293F2; text-decoration: none; color: #FFF;}
+.sidebar .user-info{padding: 10px;}
+.user-info dl{background: #F6F8E7; margin-bottom: 25px; padding: 20px 15px;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	    -ms-border-radius: 5px;
+	     -o-border-radius: 5px;
+	        border-radius: 5px;
+}
+.user-info hr{font-size: 0; height: 0; overflow: hidden; border-top: 1px solid #DBE5F0;}
+.user-info dt, .user-info dd{background: url(../img/user-info.png) no-repeat;}
+.user-info dt{font-weight: bold; font-size: 14px; padding-left: 18px; background-position: 0 2px; color: #4C4C4C;}
+.user-info dd{margin-left: 35px; padding-left: 18px; margin-top: 14px; color: #777878;}
+.user-info #uinfoPhone.on{background-position: 0 -60px;}
+.user-info #uinfoPhone.off{background-position: 0 -90px;}
+.user-info #uinfoMail.on{background-position: 0 -120px;}
+.user-info #uinfoMail.off{background-position: 0 -150px;}
+.user-info #uinfoIdentity.on{background-position: 0 0px;}
+.user-info #uinfoIdentity.off{background-position: 0 -30px;}
+.user-info #uinfoSafe.on{background-position: 0 -180px;}
+.user-info #uinfoSafe.off{background-position: 0 -210px; color: #d26363;}
+
+.mod-sep{font-size: 0; height: 0; overflow: hidden; border-top: 1px solid #ECECEC; margin: 10px 0;}
+.mod{padding: 25px 0 25px 40px;}
+.mod .mod-hd{cursor: pointer;}
+.mod h3{font-size: 16px; color: #232c30; display: inline-block; vertical-align: middle; *display: inline; zoom: 1; }
+.mod .icon-zoom{display: inline-block; vertical-align: middle; *display: inline; zoom: 1; height: 13px; width: 14px; background: url(../img/icon-zoom.png) no-repeat 0 0; cursor: pointer;}
+.mod-expand .icon-zoom{background-position: 0 -13px;}
+.mod .mod-bd{padding: 20px 0 0 30px; display: none;}
+.mod-expand .mod-bd{display: block;}
+.mod .field{margin-bottom: 20px;}
+.mod-usage{display: inline-block; vertical-align: middle; *display: inline; zoom: 1; height: 10px; width: 120px; font-size: 0; overflow: hidden; background: #E3E4E8;}
+.mod-usage span{display: inline-block; height: 10px; overflow: hidden; font-size: 0; background: #1FBBA6;}
+.filter-type{overflow: hidden; border-bottom: 1px solid #ECECEC;}
+.filter-type h4{font-family: "微软雅黑","黑体"; font-size: 14px;}
+.filter-type .field{float: left; margin-right: 50px; _display: inline; margin-bottom: 0;}
+.filter-type .label{padding-top: 5px;}
+.mod .fold .icon-zoom{display: inline-block; vertical-align: middle; *display: inline; zoom: 1; height: 13px; width: 14px; background: url(../img/icon-zoom.png) no-repeat 0 0; cursor: pointer;}
+.mod .expand .icon-zoom{background-position: 0 -13px;}
+.mod .fold dd{padding-left: 30px; display: none;}
+.mod .expand dd{display: block;}
+
+.table th,
+.table td{padding-left: 5px; padding-right: 5px;}
+
+/*账户管理*/
+.account-manage{padding: 40px 35px;}
+.account-manage .mod-sep{margin-bottom: 30px;}
+.account-manage dl{margin-bottom: 30px;}
+.account-manage dl dt{font-size: 14px; margin-bottom: 10px;}
+.account-manage dl dt span{vertical-align: middle;}
+.account-manage dl dd{padding-left: 50px; font-size: 14px;}
+.account-manage dl dd .money{font-size: 18px; vertical-align: middle; margin-right: 30px;}
+.account-manage dl dd em{vertical-align: middle;}
+.account-manage dl dd .ipt-text{margin: 0 10px;}
+.account-manage dl dd .btn{margin: 0 10px; font-size: 12px;}
+
+/*消费明细*/
+.spending-manage{padding: 40px 0;}
+.spending-manage .tabs{background: none;}
+.spending-manage .mod-spending{padding-bottom: 0;}
+.mod-spending .sum{text-align: right; margin-bottom: 10px;}
+.mod-spending .page{margin-top: 10px; text-align: right;}
+.spending-manage .filter-type{border-bottom: 0;}
+.spending-detail .legend{font-size: 16px;}
+
+/*充值记录*/
+.pay-record{padding: 40px 0;}
+.pay-record .tabs{background: none;}
+.pay-record .filter-type{border-bottom: 0;}
+.pay-record .mod-pay{padding-bottom: 0;}
+.pay-record .mod-pay .page{margin-top: 10px; text-align: right;}
+.pay-record .filter-type select{width: 345px;}
+
+/*基本信息*/
+.basic-info{padding: 20px 30px;}
+.basic-info h3{height: 30px; font-size: 16px; border-bottom: 1px solid #D8D8D8; color: #7b888e; margin-bottom: 30px;}
+.basic-info .figure{width: 180px; float:left; text-align: center;}
+.basic-info .figure .avatar{border: 1px solid #82C1E2; padding: 1px; display: inline-block;width: 126px;height: 126px;}
+.basic-info .figure .avatar img{display: block; width:126px; height:126px;}
+.basic-info .figure a{text-decoration: underline;}
+.basic-info .detail{margin-left: 180px; border-left: 1px dashed #BABABA; padding-left: 25px;}
+.basic-info .field{margin-bottom: 30px;}
+.basic-info .field .label{width: 70px;  font-size: 14px; padding-top: 4px;text-align: right;}
+.basic-info .field .ipt-text{width:300px;}
+.basic-info .field textarea{height: 80px;resize: vertical;}
+/*上传头像*/
+.upload-avatar{padding: 40px; overflow: hidden; zoom: 1;}
+.upload-avatar .avatar-split{width: 180px; height: 180px; background: #F6F8FA; border: 1px dashed #D9DDE3; float: left;}
+.upload-avatar .avatar-split .tip{height: 180px; line-height: 180px; text-align: center; color: #777676; font-size: 14px;}
+.upload-avatar .avatar-split .tip img{width:180px;height:180px;}
+.upload-avatar .avatar-select{margin-left: 200px; padding-top: 60px;position: relative;}
+.upload-avatar .avatar-select .desc{color: #777676; margin-top: 20px;}
+.upload-avatar .avatar-select input{height:54px;width: 80px; position: absolute;left: 0px;top: 0px;visibility: hidden;}
+
+
+/*实名认证*/
+.audit-pic .pics img{width: 473px;height: 293px;border-radius: 10px;}
+
+/*安全级别*/
+.safety-grade{padding: 30px 40px; background: #F8F8F8;}
+.safety-grade .legend{display: inline-block; vertical-align: top; *display: inline; zoom: 1;}
+.safety-grade .detail{display: inline-block; vertical-align: top; *display: inline; zoom: 1; padding-top: 3px;}
+.safety-grade .detail .grade-bar{font-size: 0; height: 12px; width: 300px; overflow: hidden; background: #E3E4E8;}
+.safety-grade .detail .grade-bar span{display: block; height: 12px; overflow: hidden; background: #1FBBA6;}
+.safety-grade .detail p{overflow: hidden; zoom: 1; margin-top: 10px;}
+.safety-grade .detail p span{float: left; width: 100px;}
+
+/*安全报告*/
+.mod-report{padding: 25px 20px; margin: 0 30px; border-bottom: 1px solid #D8D8D8;}
+.mod-report .item,
+.mod-report .status,
+.mod-report .act{display: inline-block; vertical-align: middle; *display: inline; zoom: 1;}
+.mod-report .item{width: 70%;}
+.mod-report .status,
+.mod-report .act{width: 14%; text-align: right;}
+.mod-report .item .legend{font-size: 14px; margin-bottom: 5px;}
+.mod-report .item .desc{padding-left: 20px; color: #777676;}
+.mod-report .status{font-size: 14px;}
+
+/*修改密码*/
+.change-password{padding: 25px 40px;}
+.change-password .password-rule{color: #777676; margin-bottom: 30px;}
+.change-password .field{margin-bottom: 30px;}
+.change-password .new-password{margin-bottom: 10px;}
+.change-password .field .label{width: 200px; text-align: right; font-size: 14px; padding-top: 4px;}
+.change-password .ipt-text{width: 280px;}
+.change-password .new-password .ipt p{margin:5px 0 0 195px;}
+.change-password .new-password .ipt p .low{color: #D26363;}
+.change-password .new-password .ipt p .middle{color: #FE7B07;}
+.change-password .new-password .ipt p .high{color: #1FBBA6;}
+.change-password .code p{color: #777676; margin-top: 5px;}
+
+/*绑定手机号*/
+.mod-bind{padding: 25px 40px;}
+.mod-bind .legend{font-size: 14px; margin-bottom: 10px;}
+.mod-bind .desc{color: #777676; line-height: 1.8; margin-bottom: 30px; font-size: 14px;}
+.mod-bind .field{margin-bottom: 30px;}
+.mod-bind .field .label{width: 200px; text-align: right; font-size: 14px; padding-top: 4px;}
+.mod-bind .ipt-text{width: 280px;}
+.mod-bind .ipt p{color: #777676;  margin-top:5px;}
+
+/*通知*/
+.safety-notice{padding: 25px 40px;}
+.safety-notice .desc{color: #777676; line-height: 1.8; margin-bottom: 20px; font-size: 14px;}
+.safety-notice .table td{vertical-align: middle; padding: 3px 10px;}
+.safety-notice .smt{text-align: center; margin-top: 30px;}
+.safety-notice .trs{height:36px;}
+
+/*交易管理*/
+.spending-manage .label-spec .label{width:120px;text-align: right;}
+.spending-manage .label-spec button{margin-left:125px;}
+.spending-manage .radio{margin-right: 20px;}
+
+/*bind-google*/
+.bind-google .left-pic{width:200px;text-align: center;float: left;position:absolute;}
+.bind-google .left-pic img{width: 130px;height:130px;}
+.bind-google .right-content{float:left;margin-left: 210px;}
+.bind-google .ul-spec{list-style: disc;padding-left: 30px;}
+.bind-google .bind-area{text-align: center;margin: 20px 0;}
+.bind-google .bind-area img{width: 180px;height: 180px;}
+.bind-google .bind-area .key-area{margin:10px 0;}
+.bind-google .desc{margin-bottom:5px;}
+.bind-google a{text-decoration: underline;color: #383;}
+.dialog-bind-google{padding: 40px;}
+.dialog-bind-google .desc{font-size: 14px; line-height: 2em; margin-bottom: 20px;}
+.dialog-bind-google .field .label{font-size: 14px; padding-top: 4px;}
+.dialog-bind-google .ipt .ipt-text{width: 360px;}
+.dialog-bind-google .ipt p{overflow: hidden; zoom: 1; margin-top: 10px;}
+
+.dialog-get-google-key .left-pic{width:300px; margin: 0 auto;text-align: center;}
+.dialog-get-google-key .left-pic img{width: 240px;height:240px;}
+.dialog-get-google-key .desc{font-size: 14px; line-height: 2em; margin-bottom: 20px;text-align: center;}
+
+.dialog-bind-google-confirm{height:220px;}
+.dialog-bind-google-confirm .left-pic{width:200px;text-align: center;float: left;position:absolute;}
+.dialog-bind-google-confirm .left-pic img{width: 180px;height:180px;}
+.dialog-bind-google-confirm .right-content{float:left;margin-left: 200px;}
+.dialog-bind-google-confirm .ul-spec{list-style: disc;padding-left: 10px;margin-bottom: 20px;line-height: 2em;}
+.dialog-bind-google-confirm .desc{font-size: 12px; line-height: 2em; margin-bottom: 20px;}
+.dialog-bind-google-confirm .field .label{font-size: 14px; padding-top: 4px;}
+.dialog-bind-google-confirm .ipt .ipt-text{width: 160px;}
+
+
+.label-spec .label{width:120px;text-align: right;}
+.label-spec .ipt .ipt-text,
+.label-spec .ipt select{width:280px;}
+
+/*ssh keys*/
+.sshkeys-info{padding: 20px 30px;}
+.sshkeys-info h3{height: 30px; font-size: 16px; border-bottom: 1px solid #D8D8D8; color: #7b888e; margin-bottom: 30px;}
+.sshkeys-info .tips-info{color: #777676; line-height: 1.8; margin-bottom: 20px; font-size: 14px;}
+
+.mod-table{width: 100%; border-collapse: collapse; border-top: 1px solid #D8D8D8; border-bottom: 1px solid #D8D8D8; table-layout: fixed;}
+.mod-table th,
+.mod-table td{padding: 10px 0 10px 30px; text-align: left; vertical-align: top;}
+.mod-table td{line-height: 28px;}
+.mod-table th{border-bottom: 1px solid #D8D8D8; font-size: 14px;}
+.mod-table tr.even{background: #F6F8FA;}
+.mod-table a{color: #3293F2;}
+
+.sshkeys-info .key-zone textarea{border: 1px solid #D8D8D8;border-radius: 4px;line-height: 20px;padding: 5px;width: 90%;resize: vertical;}
+
+.dialog-add-sshkey .block .label{color: #8A8A8A;font-size: 14px;font-weight: 600;margin-bottom: 5px;text-align: left;padding-left: 12px;}
+.dialog-add-sshkey input{width: 94%;}
+.dialog-add-sshkey textarea{width:94%;height:200px;resize: vertical;}
+
+.dialog-login-again .desc{color: #777676; margin-top: 20px;}
+
+.table td .text-ellipsis{display: inline-block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;}
+.table .first .text-ellipsis{width:70%;}
+.table .first a{width:25%;min-width: 30px;float: right;display:none;}
+.table .hover a{display: inline-block;}
+
+.single-instance{padding: 0 10px;}
+
+.tabs{background: none repeat scroll 0 0 #F8F8F8;}
+.tabs a{border-top: 3px solid #E2E2E2;}
