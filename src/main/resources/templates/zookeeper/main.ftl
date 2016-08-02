@@ -190,8 +190,8 @@ function evalResult(data, msg){
 <br>
 <#macro printTree node>
 {	
-	id:${node.id},
-	pId:${node.parent?default('0')}, 
+	id:${node.id?c},
+	pId:${node.parent?default(0)?c}, 
 	open: ${(node.open)?string('true', 'false')},
 	flag: ${(node.leaf)?string('true', 'false')}, 
 	name:'${node.name?js_string}',
